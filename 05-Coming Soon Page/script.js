@@ -18,6 +18,5 @@ let x = setInterval(function () {
         document.getElementById("hours").innerHTML = "00";
         document.getElementById("minutes").innerHTML = "00";
         document.getElementById("seconds").innerHTML = "00";
-  } else {
   }
 }, 1000);
