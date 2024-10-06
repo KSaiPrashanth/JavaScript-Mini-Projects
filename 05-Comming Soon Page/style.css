@@ -1,0 +1,135 @@
+:root {
+  --primary-background-color: #f2f2f2;
+  --primary-text-color: #333;
+  --accent-color: #ff3753;
+  --secondary-text-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/background.png);
+  background-position: center;
+  background-size: cover;
+  padding: 0 8%;
+  background-color: var(--primary-background-color);
+}
+
+.logo {
+  width: 120px;
+  padding: 20px 0;
+  cursor: pointer;
+  color: var(--primary-text-color);
+}
+
+.content {
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  color: var(--secondary-text-color);
+}
+
+.content h1 {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.content h1 span {
+  color: var(--accent-color);
+}
+
+.content button {
+  background: transparent;
+  border: 2px solid var(--secondary-text-color);
+  outline: none;
+  padding: 12px 25px;
+  color: var(--secondary-text-color);
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.content button img {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.launch-time {
+  display: flex;
+}
+
+.launch-time div {
+  flex-basis: 100px;
+}
+
+.launch-time div p {
+  font-size: 60px;
+  margin-bottom: -4px;
+  color: var(--secondary-text-color);
+}
+
+.rocket {
+  width: 200px;
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  animation: rocket 4s linear infinite;
+}
+
+@keyframes rocket {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+  100% {
+    bottom: 105%;
+    opacity: 1;
+  }
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 0 4%;
+  }
+  
+  .logo {
+    width: 80px;
+    padding: 15px 0;
+  }
+  
+  .content {
+    font-size: 18px;
+  }
+  
+  .content h1 {
+    font-size: 36px;
+  }
+  
+  .content button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .content button img {
+    width: 15px;
+    margin-left: 5px;
+  }
+  
+  .launch-time div p {
+    font-size: 40px;
+  }
+  
+  .rocket {
+    width: 150px;
+    right: 5%;
+  }
+}
