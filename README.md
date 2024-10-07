@@ -16,3 +16,6 @@ Indicate the strength of a password as users type, providing feedback on passwor
 
 **5. Coming Soon Page**
 A page to create a coming soon page with a countdown timer. [View Code](05-Coming%20Soon%20Page/index.html)
+
+**6. To-Do List App**
+A simple to-do list app that allows users to add, remove, and mark tasks as completed. [View Code](06-To-Do%20List%20App/index.html)
