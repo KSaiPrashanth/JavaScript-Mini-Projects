@@ -19,3 +19,7 @@ A page to create a coming soon page with a countdown timer. [View Code](05-Comin
 
 **6. To-Do List App**
 A simple to-do list app that allows users to add, remove, and mark tasks as completed. [View Code](06-To-Do%20List%20App/index.html)
+
+
+**7. Digital Clock**
+A simple digital clock displaying the current time in hours, minutes, and seconds. [View Code](07-Digital%20Clock/index.html)

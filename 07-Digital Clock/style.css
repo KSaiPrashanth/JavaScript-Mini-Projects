@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, Arial, Helvetica;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #08001f;
+  --secondary-color: #30197d;
+  --accent-color: #f41b75;
+  --background-color: #ffffff;
+  --blur-radius: 40px;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+  color: var(--background-color);
+  position: relative;
+}
+
+.container {
+  width: 80%; /* adjusted width for responsiveness */
+  height: 180px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clock {
+  width: 100%;
+  height: 100%;
+  background: rgba(235, 0, 255, 0.11);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(var(--blur-radius));
+}
+
+.container::before {
+  content: "";
+  width: 180px;
+  height: 180px;
+  background: var(--accent-color);
+  border-radius: 5px;
+  position: absolute;
+  left: -50px;
+  top: -50px;
+  z-index: -1;
+}
+
+.container::after {
+  content: "";
+  width: 180px;
+  height: 180px;
+  background: #419aff;
+  border-radius: 50%;
+  position: absolute;
+  right: -30px;
+  bottom: -50px;
+  z-index: -1;
+}
+
+.clock span {
+  font-size: 80px;
+  width: 110px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.clock span::after {
+  font-size: 16px;
+  position: absolute;
+  bottom: -14px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#hrs::after {
+  content: "HOURS";
+}
+
+#min::after {
+  content: "MINS";
+}
+
+#sec::after {
+  content: "SEC";
+}
+
+/* Media queries for responsiveness */
+
+/* Tablet and smaller screens */
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+  .clock span {
+    font-size: 60px;
+  }
+  .clock span::after {
+    font-size: 14px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+  .container {
+    width: 70%;
+    height: 100px;
+  }
+  .clock span {
+    font-size: 40px;
+  }
+  .clock span::after {
+    font-size: 12px;
+  }
+  .container::before {
+    width: 80px;
+    height: 80px;
+  }
+  .container::after {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 320px) {
+  .container {
+    width: 60%;
+    height: 80px;
+  }
+  .clock span {
+    font-size: 30px;
+  }
+  .clock span::after {
+    font-size: 10px;
+  }
+  .container::before {
+    width: 60px;
+    height: 60px;
+  }
+  .container::after {
+    width: 60px;
+    height: 60px;
+  }
+}
