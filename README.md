@@ -23,3 +23,6 @@ A simple to-do list app that allows users to add, remove, and mark tasks as comp
 
 **7. Digital Clock**
 A simple digital clock displaying the current time in hours, minutes, and seconds. [View Code](07-Digital%20Clock/index.html)
+
+**8. Email Subscription Form**
+A simple email subscription form with a submission feature. Upon submission, the email ID is sent to a Google Sheet for storage and further processing. [View Code](08-Email%20Subscription%20Form/index.html)
