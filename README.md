@@ -26,3 +26,6 @@ A simple digital clock displaying the current time in hours, minutes, and second
 
 **8. Email Subscription Form**
 A simple email subscription form with a submission feature. Upon submission, the email ID is sent to a Google Sheet for storage and further processing. [View Code](08-Email%20Subscription%20Form/index.html)
+
+**9. Calendar**
+A calendar project that displays the current local date, including the day, month, and year. [View Code](09-Calendar/index.html)
