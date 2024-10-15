@@ -32,3 +32,6 @@ A calendar project that displays the current local date, including the day, mont
 
 **10. Drange and Drop**
 A simple drag and drop project that allows users to drag and drop elements from one container to another. [View Code](10-Drange%20and%20Drop/index.html)
+
+**11. Age Calculator**
+A simple age calculator that calculates your age based on your date of birth. [View Code](11-Age%20Calculator/index.html)
