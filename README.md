@@ -35,3 +35,6 @@ A simple drag and drop project that allows users to drag and drop elements from 
 
 **11. Age Calculator**
 A simple age calculator that calculates your age based on your date of birth. [View Code](11-Age%20Calculator/index.html)
+
+**12. Form Validation**
+Form validation for name, phone, email, and message fields using JavaScript. [View Code](12-Form%20Validation/index.html)
