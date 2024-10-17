@@ -38,3 +38,6 @@ A simple age calculator that calculates your age based on your date of birth. [V
 
 **12. Form Validation**
 Form validation for name, phone, email, and message fields using JavaScript. [View Code](12-Form%20Validation/index.html)
+
+**13. Calculator**
+A basic calculator that allows users to perform arithmetic operations. [View Code](13-Calculator/index.html)

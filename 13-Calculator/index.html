@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <meta name="description" content="A basic calculator that allows users to perform arithmetic operations.">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="display">
+                    <input type="text" name="display" aria-label="Calculator display" aria-live="polite">
+                </div>
+                <div>
+                    <input type="button" value="AC" onclick="clearDisplay()" class="operator" aria-label="Clear display">
+                    <input type="button" value="DE" onclick="deleteChar()" class="operator" aria-label="Delete character">
+                    <input type="button" value="." onclick="appendChar('.')" class="operator" aria-label="Append decimal point">
+                    <input type="button" value="/" onclick="appendChar('/')" class="operator" aria-label="Append division operator">
+                </div>
+
+                <div>
+                    <input type="button" value="7" onclick="appendChar('7')" aria-label="Append digit 7">
+                    <input type="button" value="8" onclick="appendChar('8')" aria-label="Append digit 8">
+                    <input type="button" value="9" onclick="appendChar('9')" aria-label="Append digit 9">
+                    <input type="button" value="*" onclick="appendChar('*')" class="operator" aria-label="Append multiplication operator">
+                </div>
+
+                <div>
+                    <input type="button" value="4" onclick="appendChar('4')" aria-label="Append digit 4">
+                    <input type="button" value="5" onclick="appendChar('5')" aria-label="Append digit 5">
+                    <input type="button" value="6" onclick="appendChar('6')" aria-label="Append digit 6">
+                    <input type="button" value="-" onclick="appendChar('-')" class="operator" aria-label="Append subtraction operator">
+                </div>
+
+                <div>
+                    <input type="button" value="1" onclick="appendChar('1')" aria-label="Append digit 1">
+                    <input type="button" value="2" onclick="appendChar('2')" aria-label="Append digit 2">
+                    <input type="button" value="3" onclick="appendChar('3')" aria-label="Append digit 3">
+                    <input type="button" value="+" onclick="appendChar('+')" class="operator" aria-label="Append addition operator">
+                </div>
+
+                <div>
+                    <input type="button" value="00" onclick="appendChar('00')" aria-label="Append digits 00">
+                    <input type="button" value="0" onclick="appendChar('0')" aria-label="Append digit 0">
+                    <input type="button" value="=" onclick="evaluateExpression()" class="equal" aria-label="Evaluate expression">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
