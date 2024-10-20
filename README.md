@@ -42,5 +42,5 @@ Form validation for name, phone, email, and message fields using JavaScript. [Vi
 **13. Calculator**
 A basic calculator that allows users to perform arithmetic operations. [View Code](13-Calculator/index.html)
 
-**14. Text To Speech Converter**  
+**14. Text To Speech Converter**
 Convert text to speech easily with this converter. Write anything and listen to it instantly. [View Code](14-Text%20To%20Speech%20Converter/index.html)
