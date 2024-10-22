@@ -47,3 +47,6 @@ Convert text to speech easily with this converter. Write anything and listen to 
 
 **15. Cryptocurrency Website**
 Displays cryptocurrency prices and market data. [View Code](15-Cryptocurrency%20Website/index.html)
+
+**16. Stopwatch**
+Create a simple stopwatch application that allows users to start, stop, and reset the timer. [View Code](16-Stopwatch/index.html)
