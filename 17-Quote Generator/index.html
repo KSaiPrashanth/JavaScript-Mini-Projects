@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A daily quote generator that provides inspiring quotes and allows users to share them on social media.">
+    <title>Quote Generator</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quote-box">
+        <h2>Quote of the Day</h2>
+        <blockquote id="quote">Loading...</blockquote>
+        <span id="author">Loading...</span>
+        <div>
+            <button onclick="getQuote(api_url)">New Quote</button>
+            <button onclick="post()"><img src="images/x.png">Post</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

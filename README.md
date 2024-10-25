@@ -50,3 +50,6 @@ Displays cryptocurrency prices and market data. [View Code](15-Cryptocurrency%20
 
 **16. Stopwatch**
 Create a simple stopwatch application that allows users to start, stop, and reset the timer. [View Code](16-Stopwatch/index.html)
+
+**17. Quote Generator**
+Generate random quotes with this quote generator. [View Code](17-Quote%20Generator/index.html)
